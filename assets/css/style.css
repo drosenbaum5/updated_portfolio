@@ -1,0 +1,24 @@
+body {
+
+    background-color: rgb(218, 211, 211);
+}
+
+
+nav {
+
+    height: 70px;
+}
+
+
+#about-me-container {
+
+    background: rgb(68, 64, 64);
+    margin-top: -200px;
+    height: 400px; 
+    width: 800px;
+}
+
+#section2 {
+
+    height: 250px;
+}
