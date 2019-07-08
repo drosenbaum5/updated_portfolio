@@ -1,9 +1,9 @@
 body {
 
     background-color: rgb(218, 211, 211);
-    background: url(../images/create.jpeg);
+    /* background: url(../images/create.jpeg); */
     background-size: 105%;
-    
+    font-family: Helvetica, Arial, sans-serif;
 
 }
 
@@ -17,8 +17,8 @@ nav {
 #about-me-container {
 
     background: rgb(228, 228, 228);
-    /* background: url(../images/blur.jpeg); */
-    margin-top: -200px;
+    background: url(../images/card-white.jpg);
+    margin-top: -140px;
     height: 400px; 
     width: 800px;
     border-radius: 2px;
@@ -28,7 +28,7 @@ nav {
 
 #section2 {
 
-    height: 250px;
+    height: 200px;
 }
 
 #image-holder {
@@ -45,9 +45,10 @@ nav {
 
     border-radius: 5px;
     border: solid rgb(255, 253, 253);
-    margin: none;
+    margin-top: -30px;
+    margin-left: 20px;
     overflow: none;
-
+    block-size: 35%;
     
 }
 
@@ -55,17 +56,36 @@ nav {
 
     height: 60px;  
     border-radius: 2px;
+    background: url(../images/blue-back3.jpg);
 
    
 }
 
-#paragraph-holder {
 
-    margin-left: 20px;
-    
+
+
+/* #bio-container {
+
+    margin-top: -120px;
+    margin-right: 10px;
+
+} */
+
+
+
+
+#bio-info {
+
+margin-left: 20px;
+margin-right: 30px;
+
 }
 
-.carousel {
+#contact-info {
 
-    margin-top: -200px;
-}
+  float: right;
+  margin-right: 30px;
+  margin-top: 5px;
+  
+} 
+
