@@ -37,7 +37,9 @@ nav {
   margin-top: -30px;
   margin-left: 20px;
   overflow: none;
-  block-size: 35%;
+  height: 35%
+
+  
 }
 
 #business-top {
