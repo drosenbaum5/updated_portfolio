@@ -33,7 +33,8 @@ nav {
 
 #section2 {
   height: 180px;
-  background: url(../images/blue-back3.jpg)
+  background-image: url(../images/blue-back3.jpg);
+  background-repeat: no repeat;
 }
 
 #image-holder {
