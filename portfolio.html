@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <!--Local Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!---jQuery CDN Link-->
@@ -29,92 +29,73 @@
         <a href="index.html" class="brand-logo">Dan Rosenbaum</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="index.html">Contact</a></li>
-          <li><a href="https://drosenbaum5.github.io/updated_portfolio/assets/resume.pdf" target="_blank">Resume</a></li>
+          <li>
+            <a
+              href="https://drosenbaum5.github.io/updated_portfolio/assets/resume.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
           <li><a href="/assets/html/portfolio.html">Portfolio</a></li>
         </ul>
       </div>
     </nav>
 
     <!---Background Section Underneath Nav-->
-
     <div
       class="section blue darken-3 no-pad-top splash-section z-depth-5"
       id="section2"
     ></div>
 
-    <div class="row">
-      <!----Card One----->
-      <div class="col s4 m4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/images/infinity-stone.JPG" class="project-image" />
+   
+    <!-- Main container for cards -->
+    <div class="container">
+      <div class="cards-list">
+
+    <!-- first card -->
+        <div class="card 1">
+          <div class="card_image">
+            <img src="assets/images/Ship_TakeOff.jpg" />
           </div>
-          <div class="card-content">
-            <p>Infinity Stone Collector</p>
-          </div>
-          <div class="card-action">
-            <a href="https://drosenbaum5.github.io/unit-4-game/"
-              >Infinity Stone Collector</a
-            >
+
+          <div class="card_title title-white">
+              <a class="waves-effect light-blue darken-4 btn" id = "button1-git">GitHub</a> <a class="waves-effect light-blue darken-4 btn" id = "button1-site">Website</a>
           </div>
         </div>
-      </div>
 
-      <!----Card Two----->
-
-      <div class="col s4 m4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/images/dest_pod.JPG" class="project-image" />
+        <!-- Second card -->
+        <div class="card 2">
+          <div class="card_image">
+            <img src="assets/images/first-year.JPG" />
           </div>
-          <div class="card-content">
-            <p>Destination Podcast</p>
-          </div>
-          <div class="card-action">
-            <a
-              href="https://drosenbaum5.github.io/destination_podcast/index.html"
-              >Destination Podcast</a
-            >
+          <div class="card_title title-white">
+              <a class="waves-effect light-blue darken-4 btn" id = "button2-git">GitHub</a> <a class="waves-effect light-blue darken-4  btn" id = "button2-site">Website</a>
           </div>
         </div>
-      </div>
 
-      <!----Card Three----->
-
-      <div class="col s4 m4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/images/solarsystem.JPG" class="project-image" />
+        <!-- Third card  -->
+        <div class="card 3">
+          <div class="card_image">
+            <img src="assets/images/dest_pod.JPG" />
           </div>
-          <div class="card-content">
-            <p>Solar System Adventure</p>
-          </div>
-          <div class="card-action">
-            <a href="https://solarsystemadventure.herokuapp.com/"
-              >Solar System Adventure</a
-            >
+          <div class="card_title">
+              <a class="waves-effect light-blue darken-4 btn" id = "button3-git">GitHub</a> <a class="waves-effect light-blue darken-4  btn"id = "button3-site">Website</a>
           </div>
         </div>
-      </div>
-    </div>
-    <br />
-    <br />
-    <div class="row">
-      <div class="col s4 m4">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/images/first-year.JPG" class="project-image" />
+
+        <!-- Fourth card -->
+        <div class="card 4">
+          <div class="card_image">
+            <img src="assets/images/friend-finder.JPG" />
           </div>
-          <div class="card-content">
-            <p>First Year</p>
-          </div>
-          <div class="card-action">
-            <a href="https://harrypotter-csd.herokuapp.com/">First Year</a>
+          <div class="card_title title-black">
+              <a class="waves-effect light-blue darken-4 btn" id = "button4-git">GitHub</a> <a class="waves-effect light-blue darken-4  btn"id = "button4-site">Website</a>
           </div>
         </div>
       </div>
     </div>
 
-    <script src="assets/javascript/mainpage.js"></script>
+
+    <script src="assets/javascript/portfolio.js"></script>
   </body>
 </html>
