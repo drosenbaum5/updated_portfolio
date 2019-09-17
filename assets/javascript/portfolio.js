@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+// Mobile Responsive Navbar
+$('.sidenav').sidenav();
+
 // First card buttons
  $("#button1-git").click(function() {
     window.open("https://github.com/drosenbaum5/AdventureGame", '_blank');
