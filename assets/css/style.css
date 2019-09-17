@@ -1,22 +1,31 @@
 body {
   background-color: rgb(245, 245, 245);
-  background: url(../images/create.jpeg);
+  background-image: url(../images/create.jpeg);
+  background-repeat: no-repeat;
   background-size: 105%;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 nav {
-  height: 70px;
+  
 }
 
 .nav-wrapper {
   background: linear-gradient(to bottom right, #626262 0%, #292929 100%);
-}      
+}    
 
+#section2 {
+  height: 180px;
+  background-image: url(../images/blue-back3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
 
 #about-me-container {
   background: rgb(228, 228, 228);
-  background: url(../images/card-white.jpg);
+  background-image: url(../images/card-white.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   margin-top: -100px;
   height: 400px;
   width: 800px;
@@ -31,11 +40,6 @@ nav {
  margin-top: -100px;
 }
 
-#section2 {
-  height: 180px;
-  background-image: url(../images/blue-back3.jpg);
-  background-repeat: no repeat;
-}
 
 #image-holder {
   float: left;
@@ -61,13 +65,6 @@ nav {
   border-radius: 2px;
   background: url(../images/blue-back3.jpg);
 }
-
-/* #bio-container {
-
-    margin-top: -120px;
-    margin-right: 10px;
-
-} */
 
 #bio-info {
   margin-left: 20px;
