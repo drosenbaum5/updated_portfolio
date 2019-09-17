@@ -1,82 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Portfolio</title>
- <!--Import Google Icon Font-->
- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
- <!-- Compiled and minified CSS -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
- 
- <!-- Compiled and minified JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
- <!--Local Stylesheet-->
- <link rel="stylesheet" href="assets/css/style.css">
- <!---jQuery CDN Link-->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-</head>
- <body>
-
-  <!--Navbar and links-->  
-  <nav>
-   <div class="nav-wrapper grey darken-3 z-depth-5">
-    <a href="index.html" class="brand-logo responsive">Dan Rosenbaum</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-     <li><a href="index.html">Contact</a></li>
-     <li><a href="https://drosenbaum5.github.io/updated_portfolio/assets/resume.pdf" target="_blank">Resume</a></li>
-     <li><a href="portfolio.html">Portfolio</a></li>
-    </ul>
-   </div>
-  </nav>
-  
-  <!---Background Section Underneath Nav-->
-  
-   <div class = "section blue darken-4 no-pad-top splash-section z-depth-5" id = "section2">
-   </div>
-
-  <!--About me/contact container-->
-     <div class = "container z-depth-5" id = "about-me-container">
-
-        <div class = "section grey darken-3 no-pad-top splash-section z-depth-5" id = "grey-bar">
-        </div>
-
-     <div class = "section light-blue darken-1 no-pad-top splash-section z-depth-5" id = "business-top">
-       
-      <!-- <h6 class="">Dan Rosenbaum</h6> -->
-    </div>
-   <!--Headshot Photo-->
-   
-     <img src="assets/images/dan.jpg" class = "z-depth-2"  id = "my-image">
-
-     <div class = "container" id = "contact-info">
-     <h5>Contact</h5>
-     <h6 >Phone: 703-615-2053 </h6>
-     <h6 >E-mail: drosenbaum5@gmail.com </h6>
-     </div>
-     
-      <h5 id = "bio-info">About Me</h5>
-         <p id = "bio-info">My name is Dan Rosenbaum. I am a highly motivated and customer service-oriented IT professional growing into a career as a Full Stack Web Developer. I'm Recognized for strong interpersonal communication and effective problem-solving skills. I have hands on experience implementing, upgrading, and maintaining various small to medium sized businesses’ IT infrastructure to meet customer’s needs. </p>    
-
-         
-            
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel = "stylesheet" href = "assets/css/style.css">
+  </head>
+  <body>
+    <!--Navbar and links-->
+    <nav>
+      <div class="nav-wrapper grey darken-3 z-depth-5">
+        <a href="index.html" class="brand-logo">Dan Rosenbaum</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-nav" ><i class="material-icons">menu</i></a>     
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="https://drosenbaum5.github.io/updated_portfolio/assets/resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
       </div>
-      
-        
-      
-      
-    
+    </nav>
 
+    <ul class="sidenav" id="mobile-nav" >
+         <li><a href="index.html">Contact</a></li>
+         <li><a href="https://drosenbaum5.github.io/updated_portfolio/assets/resume.pdf" target="_blank">Resume</a></li>
+         <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
 
+    <!---Background Section Underneath Nav-->
 
+    <div class="section blue darken-4 no-pad-top splash-section z-depth-5" id="section2"></div>
 
- 
+    <!--About me/contact container-->
+    <div class="container z-depth-5" id="about-me-container">
+      <div
+        class="section grey darken-3 no-pad-top splash-section z-depth-5"
+        id="grey-bar"
+      ></div>
 
-<script src = "assets/javascript/mainpage.js"></script>
+      <div
+        class="section light-blue darken-1 no-pad-top splash-section z-depth-5"
+        id="business-top"
+      >
+        <!-- <h6 class="">Dan Rosenbaum</h6> -->
+      </div>
+      <!--Headshot Photo-->
 
+      <img src="assets/images/dan.jpg" class="z-depth-2" id="my-image" />
 
+      <div class="container" id="contact-info">
+        <h5>Contact</h5>
+        <h6>Phone: 703-615-2053</h6>
+        <h6>E-mail: drosenbaum5@gmail.com</h6>
+      </div>
 
- </body>
+      <h5 id="bio-info">About Me</h5>
+      <p id="bio-info">
+        My name is Dan Rosenbaum. I am a highly motivated and customer
+        service-oriented IT professional growing into a career as a Full Stack
+        Web Developer. I'm Recognized for strong interpersonal communication and
+        effective problem-solving skills. I have hands on experience
+        implementing, upgrading, and maintaining various small to medium sized
+        businesses’ IT infrastructure to meet customer’s needs.
+      </p>
+    </div>
+
+    <script src="assets/javascript/mainpage.js"></script>
+  </body>
 </html>
