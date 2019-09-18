@@ -2,7 +2,7 @@ body {
     background-color: rgb(245, 245, 245);
     background-image: url(../images/create.jpeg);
     background-repeat: no-repeat;
-    background-size: 105%;
+    background-size: 100%;
     font-family: Helvetica, Arial, sans-serif;
   }
   
@@ -14,7 +14,10 @@ body {
     background: linear-gradient(to bottom right, #626262 0%, #292929 100%);
   }      
   
-  
+ 
+  .brand-logo {
+    font-size: 5vw;
+  }
   
   #section2 {
     height: 180px;
